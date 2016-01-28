@@ -14,6 +14,8 @@
 		417779861C5A1BB8002D021D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 417779841C5A1BB8002D021D /* LaunchScreen.storyboard */; };
 		417779911C5A1BB8002D021D /* JsonTestEFCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417779901C5A1BB8002D021D /* JsonTestEFCTests.swift */; };
 		4177799C1C5A1BB8002D021D /* JsonTestEFCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4177799B1C5A1BB8002D021D /* JsonTestEFCUITests.swift */; };
+		417779AA1C5A3AD0002D021D /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417779A91C5A3AD0002D021D /* Store.swift */; };
+		417779AC1C5A3B66002D021D /* datos.json in Resources */ = {isa = PBXBuildFile; fileRef = 417779AB1C5A3B66002D021D /* datos.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		417779971C5A1BB8002D021D /* JsonTestEFCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JsonTestEFCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4177799B1C5A1BB8002D021D /* JsonTestEFCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonTestEFCUITests.swift; sourceTree = "<group>"; };
 		4177799D1C5A1BB8002D021D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		417779A91C5A3AD0002D021D /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		417779AB1C5A3B66002D021D /* datos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = datos.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +103,9 @@
 			children = (
 				4177797B1C5A1BB8002D021D /* AppDelegate.swift */,
 				4177797D1C5A1BB8002D021D /* ViewController.swift */,
-				4177797F1C5A1BB8002D021D /* Main.storyboard */,
-				417779821C5A1BB8002D021D /* Assets.xcassets */,
-				417779841C5A1BB8002D021D /* LaunchScreen.storyboard */,
-				417779871C5A1BB8002D021D /* Info.plist */,
+				417779A91C5A3AD0002D021D /* Store.swift */,
+				4182E49F1C5A977900821D88 /* ficherojson */,
+				4182E49E1C5A972E00821D88 /* recursos */,
 			);
 			path = JsonTestEFC;
 			sourceTree = "<group>";
@@ -123,6 +126,25 @@
 				4177799D1C5A1BB8002D021D /* Info.plist */,
 			);
 			path = JsonTestEFCUITests;
+			sourceTree = "<group>";
+		};
+		4182E49E1C5A972E00821D88 /* recursos */ = {
+			isa = PBXGroup;
+			children = (
+				417779871C5A1BB8002D021D /* Info.plist */,
+				4177797F1C5A1BB8002D021D /* Main.storyboard */,
+				417779821C5A1BB8002D021D /* Assets.xcassets */,
+				417779841C5A1BB8002D021D /* LaunchScreen.storyboard */,
+			);
+			name = recursos;
+			sourceTree = "<group>";
+		};
+		4182E49F1C5A977900821D88 /* ficherojson */ = {
+			isa = PBXGroup;
+			children = (
+				417779AB1C5A3B66002D021D /* datos.json */,
+			);
+			name = ficherojson;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +254,7 @@
 				417779861C5A1BB8002D021D /* LaunchScreen.storyboard in Resources */,
 				417779831C5A1BB8002D021D /* Assets.xcassets in Resources */,
 				417779811C5A1BB8002D021D /* Main.storyboard in Resources */,
+				417779AC1C5A3B66002D021D /* datos.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4177797E1C5A1BB8002D021D /* ViewController.swift in Sources */,
+				417779AA1C5A3AD0002D021D /* Store.swift in Sources */,
 				4177797C1C5A1BB8002D021D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +506,7 @@
 				417779A21C5A1BB8002D021D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		417779A31C5A1BB8002D021D /* Build configuration list for PBXNativeTarget "JsonTestEFCTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +515,7 @@
 				417779A51C5A1BB8002D021D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		417779A61C5A1BB8002D021D /* Build configuration list for PBXNativeTarget "JsonTestEFCUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +524,7 @@
 				417779A81C5A1BB8002D021D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

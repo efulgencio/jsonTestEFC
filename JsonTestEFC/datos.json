@@ -1,0 +1,20 @@
+[
+ {
+    "articulo": {
+    "descripcion": "Caja bombones",
+    "unidades": 123
+    }
+ },
+ {
+    "articulo": {
+    "descripcion": "Caja de leche",
+    "unidades": 22
+    }
+ },
+ {
+    "articulo": {
+    "descripcion": "Caja de agua",
+    "unidades": 104
+    }
+ }
+]
